@@ -1,0 +1,62 @@
+@import "../../../assets/css/font-awesome.css";
+@import "../../../assets/css/bootstrap.css";
+
+/* product-list.component.css */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.card {
+  margin-top: 20px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Add a hover effect to the card */
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the card title for better readability */
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Style the card text for a cleaner look */
+.card-text {
+  margin-bottom: 5px;
+}
+/* Style the row with some spacing between columns */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.card-img-top{
+  width: 80%;
+  height: 20%;
+}
+/* Add some spacing between cards on smaller screens */
+@media (max-width: 768px) {
+  .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
