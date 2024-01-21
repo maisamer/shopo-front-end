@@ -12,6 +12,7 @@ import { XhrInterceptor } from './interceptors/app.request.interceptor';
 import { AuthActivateRouteGuard } from './routeguards/auth.routeguard';
 import { ProductListComponent } from './component/product-list/product-list.component';
 import { RegistrationComponent } from './component/registration/registration.component';
+import { LogoutComponent } from './component/logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RegistrationComponent } from './component/registration/registration.com
     HomeComponent,
     HeaderComponent,
     ProductListComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
