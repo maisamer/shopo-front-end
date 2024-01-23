@@ -28,7 +28,8 @@ export class LoginComponent implements OnInit {
       responseData => {
         this.model = <any> responseData.body;
         this.model.authStatus = 'AUTH';
-        window.sessionStorage.setItem("userdetails",JSON.stringify(this.model));
+        window.sessionStorage.setItem('userdetails',JSON.stringify(this.model));
+        window.sessionStorage.setItem('Authorization',responseData.headers.get('Authorization')!);
         this.router.navigate(['home']);
       });
 
