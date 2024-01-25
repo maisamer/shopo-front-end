@@ -13,6 +13,7 @@ import { AuthActivateRouteGuard } from './routeguards/auth.routeguard';
 import { ProductListComponent } from './component/product-list/product-list.component';
 import { RegistrationComponent } from './component/registration/registration.component';
 import { LogoutComponent } from './component/logout/logout.component';
+import { OrderListComponent } from './component/order-list/order-list.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LogoutComponent } from './component/logout/logout.component';
     HeaderComponent,
     ProductListComponent,
     RegistrationComponent,
-    LogoutComponent
+    LogoutComponent,
+    OrderListComponent
   ],
   imports: [
     BrowserModule,

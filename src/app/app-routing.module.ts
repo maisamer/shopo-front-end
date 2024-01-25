@@ -4,6 +4,7 @@ import { LoginComponent } from './component/login/login.component';
 import { HomeComponent } from './component/home/home.component';
 import { RegistrationComponent } from './component/registration/registration.component';
 import { LogoutComponent } from './component/logout/logout.component';
+import { OrderListComponent } from './component/order-list/order-list.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -11,7 +12,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'registration', component: RegistrationComponent},
   { path: 'logout', component: LogoutComponent},
-  //{ path: 'notices', component: NoticesComponent},
+  { path: 'orders', component: OrderListComponent},
   //{ path: 'dashboard', component: DashboardComponent, canActivate: [AuthActivateRouteGuard]},
  // { path: 'myAccount', component: AccountComponent, canActivate: [AuthActivateRouteGuard]},
   //{ path: 'myBalance', component: BalanceComponent, canActivate: [AuthActivateRouteGuard]},

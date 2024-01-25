@@ -9,5 +9,6 @@ export const  AppConstants = {
     CARDS_API_URL : "/myCards",
     NOTICES_API_URL : "/notices",
     XSRF_TOKEN : "XSRF-TOKEN",
-    USER_DETAILS :"userdetails"
+    USER_DETAILS :"userdetails",
+    LIST_ORDERS : "/orders"
 }
