@@ -12,7 +12,7 @@
           <li *ngIf="user.authStatus!='AUTH'" routerLinkActive="active"><a routerLink="/login">Login</a></li>
           <li *ngIf="user.authStatus!='AUTH'" routerLinkActive="active"><a routerLink="/contact">Contact US</a></li>
           <li *ngIf="user.authStatus=='AUTH'" routerLinkActive="active"><a routerLink="/orders">Orders</a></li>
-          <li *ngIf="user.authStatus=='AUTH'" routerLinkActive="active"><a routerLink="/dashboard">Dashboard</a></li>
+          <li routerLinkActive="active"><a routerLink="/cart">Cart</a></li>
           <li *ngIf="user.authStatus=='AUTH'" routerLinkActive="active"><a routerLink="/logout">Logout</a></li>
         </ul>
       </nav>

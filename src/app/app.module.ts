@@ -14,6 +14,7 @@ import { ProductListComponent } from './component/product-list/product-list.comp
 import { RegistrationComponent } from './component/registration/registration.component';
 import { LogoutComponent } from './component/logout/logout.component';
 import { OrderListComponent } from './component/order-list/order-list.component';
+import { CartComponent } from './component/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { OrderListComponent } from './component/order-list/order-list.component'
     ProductListComponent,
     RegistrationComponent,
     LogoutComponent,
-    OrderListComponent
+    OrderListComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
